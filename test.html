@@ -2,47 +2,147 @@
 <html>
   <head>
     <meta charset="utf-8" />
-
+    <link rel="stylesheet" href="main_style.css" />
     <style>
       * {
-        margin: 0px;
+        margin: 0;
+        padding: 0;
       }
 
-      #RootWrapperNaN {
-        position: relative;
+      a {
+        text-decoration: none !important;
+        color: inherit !important;
       }
 
-      #NaN {
+      header {
+        width: 100%;
+        height: 71px;
+        background-color: rgb(47, 47, 47);
+      }
+
+      #Title {
         color: black;
-        text-overflow: ellipsis;
-        font-size: 25px;
-        font-family: Inter, sans-serif;
+        font-size: 53px;
         font-weight: initial;
         text-align: center;
-        width: 161px;
-        min-height: 30px;
-        position: absolute;
-        left: 0px;
-        top: 0px;
-        height: 30px;
+        min-height: 110px;
+        padding-top: 115px;
       }
 
-      #Hr {
-        width: 1345px;
-        height: 2px;
-        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-        background-color: black;
-        border: solid 1px black;
+      nav#mu {
+        text-align: center;
+        margin-top: 10px;
+      }
+
+      nav#mu a {
+        margin: 0 10px;
+        font-size: 20px;
+        color: white;
+      }
+
+      main {
+        text-align: center;
+        margin-top: 10px;
+      }
+
+      img {
+        min-height: 100px;
+        padding-top: 200px;
+      }
+
+      @import url("https://fonts.googleapis.com/icon?family=Material+Icons");
+
+      .dropdown {
+        position: relative;
+        display: inline-block;
+      }
+
+      .dropbtn_icon {
+        font-family: "Material Icons";
+      }
+
+      .dropbtn {
+        border: 1px solid rgb(37, 37, 37);
+        border-radius: 4px;
+        background-color: #f5f5f5;
+        font-weight: 400;
+        color: rgb(37, 37, 37);
+        padding: 12px;
+        width: 200px;
+        text-align: left;
+        cursor: pointer;
+        font-size: 12px;
+      }
+
+      .dropdown-content {
+        display: none;
         position: absolute;
-        left: 15px;
-        top: 38px;
+        z-index: 1;
+        font-weight: 400;
+        background-color: #f9f9f9;
+        min-width: 200px;
+      }
+
+      .dropdown-content a {
+        display: block;
+        text-decoration: none;
+        color: rgb(37, 37, 37);
+        font-size: 12px;
+        padding: 12px 20px;
+      }
+
+      .dropdown-content a:hover {
+        background-color: #ececec;
+      }
+
+      .dropdown:hover .dropdown-content {
+        display: block;
       }
     </style>
   </head>
   <body>
-    <div id="RootWrapperNaN">
-      <span id="NaN"> 호환/비교 </span>
-      <div id="Hr"></div>
+    <div id="container">
+      <header>
+        <h1 id="Title">Smart Home Finder</h1>
+        <nav id="mu">
+          <hr />
+          <a href="">입문자 가이드</a>
+          <a href="">자동화</a>
+          <a href="">호환/비교</a>
+          <hr />
+        </nav>
+      </header>
+
+      <main class="tlqkf">
+        <section id="test">
+          호환 비교
+          <hr />
+
+          <a href="#" class="dropdown">
+            <button class="dropbtn">
+              <span class="dropbtn_icon">more_horiz</span>
+              IoT Platform
+            </button>
+            <div class="dropdown-content">
+              <a href="#">Apple Homekit</a>
+              <a href="#">Samsung SmartThings</a>
+              <a href="#">Google Home</a>
+            </div>
+          </a>
+
+          <a href="#" class="dropdown">
+            <button class="dropbtn">
+              <span class="dropbtn_icon">more_horiz</span>
+              View More
+            </button>
+            <div class="dropdown-content">
+              <a href="#">profile</a>
+              <a href="#">write a post</a>
+              <a href="#">settings</a>
+            </div>
+          </a>
+        </section>
+      </main>
     </div>
   </body>
 </html>
