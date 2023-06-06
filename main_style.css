@@ -3,6 +3,25 @@
   padding: 0;
 }
 
+#wall {
+  margin-left: 320px;
+  margin-right: 320px;
+  /* background-color: lawngreen; */
+}
+
+#wall_2 {
+  margin-left: 320px;
+  margin-right: 320px;
+  /* background-color: lawngreen; */
+}
+
+header {
+  width: calc(100% - 100px); /* Subtracting the side margins from the width */
+  margin: 0 auto; /* Centering the header horizontally */
+  height: 71px;
+  background-color: rgb(47, 47, 47);
+}
+
 a {
   text-decoration: none !important;
   color: inherit !important;
@@ -55,7 +74,7 @@ img {
   font-family: "Material Icons";
 }
 .dropbtn {
-  border: 1px solid rgb(37, 37, 37);
+  border: 1px solid rgb(78, 77, 77);
   border-radius: 4px;
   background-color: #f5f5f5;
   font-weight: 400;
@@ -92,7 +111,7 @@ img {
 }
 
 #qudtls {
-  margin-left: -530px;
+  margin-left: -750px;
   margin-bottom: auto;
 }
 
