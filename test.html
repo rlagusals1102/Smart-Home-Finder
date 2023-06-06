@@ -1,148 +1,432 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8" />
-    <link rel="stylesheet" href="main_style.css" />
+<meta charset="utf-8">
+
     <style>
-      * {
-        margin: 0;
-        padding: 0;
-      }
-
-      a {
-        text-decoration: none !important;
-        color: inherit !important;
-      }
-
-      header {
-        width: 100%;
-        height: 71px;
-        background-color: rgb(47, 47, 47);
-      }
-
-      #Title {
-        color: black;
-        font-size: 53px;
-        font-weight: initial;
-        text-align: center;
-        min-height: 110px;
-        padding-top: 115px;
-      }
-
-      nav#mu {
-        text-align: center;
-        margin-top: 10px;
-      }
-
-      nav#mu a {
-        margin: 0 10px;
-        font-size: 20px;
-        color: white;
-      }
-
-      main {
-        text-align: center;
-        margin-top: 10px;
-      }
-
-      img {
-        min-height: 100px;
-        padding-top: 200px;
-      }
-
-      @import url("https://fonts.googleapis.com/icon?family=Material+Icons");
-
-      .dropdown {
-        position: relative;
-        display: inline-block;
-      }
-
-      .dropbtn_icon {
-        font-family: "Material Icons";
-      }
-
-      .dropbtn {
-        border: 1px solid rgb(37, 37, 37);
-        border-radius: 4px;
-        background-color: #f5f5f5;
-        font-weight: 400;
-        color: rgb(37, 37, 37);
-        padding: 12px;
-        width: 200px;
-        text-align: left;
-        cursor: pointer;
-        font-size: 12px;
-      }
-
-      .dropdown-content {
-        display: none;
-        position: absolute;
-        z-index: 1;
-        font-weight: 400;
-        background-color: #f9f9f9;
-        min-width: 200px;
-      }
-
-      .dropdown-content a {
-        display: block;
-        text-decoration: none;
-        color: rgb(37, 37, 37);
-        font-size: 12px;
-        padding: 12px 20px;
-      }
-
-      .dropdown-content a:hover {
-        background-color: #ececec;
-      }
-
-      .dropdown:hover .dropdown-content {
-        display: block;
-      }
+* {
+				margin: 0px;
+			}
+			
+			#RootWrapperNaN {
+				min-height: 100vh;
+				background-color: white;
+				position: relative;
+			}
+			
+			#IoTWirelessTechnologies {
+				width: 1345px;
+				height: 260px;
+				position: absolute;
+				left: 288px;
+				top: 488px;
+			}
+			
+			#Div {
+				width: 1345px;
+				height: 260px;
+				background-color: rgb(232, 232, 232);
+				border-radius: 10px;
+				position: absolute;
+				left: 0px;
+				top: 0px;
+			}
+			
+			#IoTWirelessTechnologies_0001 {
+				color: rgb(33, 33, 33);
+				text-overflow: ellipsis;
+				font-size: 37px;
+				font-family: Inter, sans-serif;
+				font-weight: initial;
+				text-align: left;
+				width: 439px;
+				min-height: 135px;
+				position: absolute;
+				left: 325px;
+				top: 49px;
+				height: 135px;
+			}
+			
+			#IotBelWiFiZigbee {
+				color: rgb(106, 106, 106);
+				text-overflow: ellipsis;
+				font-size: 19px;
+				font-family: Inter, sans-serif;
+				font-weight: initial;
+				text-align: center;
+				width: 607px;
+				min-height: 30px;
+				position: absolute;
+				left: 319px;
+				top: 154px;
+				height: 30px;
+			}
+			
+			#Img {
+				width: 233px;
+				height: 201px;
+				object-fit: cover;
+				position: absolute;
+				left: 32px;
+				top: 29px;
+			}
+			
+			#Btn {
+				width: 122px;
+				height: 33px;
+				position: absolute;
+				left: 325px;
+				top: 205px;
+			}
+			
+			#Btn_0001 {
+				width: 119px;
+				height: 33px;
+				background-color: rgb(174, 174, 174);
+				border-radius: 13px;
+				position: absolute;
+				left: 1px;
+				top: 0px;
+			}
+			
+			#NaN {
+				color: black;
+				text-overflow: ellipsis;
+				font-size: 15px;
+				font-family: Inter, sans-serif;
+				font-weight: initial;
+				text-align: center;
+				width: 122px;
+				min-height: 14px;
+				position: absolute;
+				left: 0px;
+				top: 10px;
+				height: 14px;
+			}
+			
+			#HomeBridge {
+				width: 1345px;
+				height: 260px;
+				position: absolute;
+				left: 288px;
+				top: 862px;
+			}
+			
+			#HomeBridgeImg {
+				width: 225px;
+				height: 200px;
+				object-fit: cover;
+				position: absolute;
+				left: 44px;
+				top: 30px;
+			}
+			
+			#HomeBridgeHomekit {
+				color: rgb(106, 106, 106);
+				text-overflow: ellipsis;
+				font-size: 19px;
+				font-family: Inter, sans-serif;
+				font-weight: initial;
+				text-align: center;
+				width: 550px;
+				min-height: 30px;
+				position: absolute;
+				left: 319px;
+				top: 154px;
+				height: 30px;
+			}
+			
+			#Btn_0002 {
+				width: 122px;
+				height: 33px;
+				position: absolute;
+				left: 325px;
+				top: 197px;
+			}
+			
+			#SmartThings {
+				width: 1345px;
+				height: 260px;
+				position: absolute;
+				left: 288px;
+				top: 1236px;
+			}
+			
+			#SmartThings_0001 {
+				width: 204px;
+				height: 200px;
+				object-fit: cover;
+				position: absolute;
+				left: 56px;
+				top: 38px;
+			}
+			
+			#SmartThingsEdgeDriver {
+				color: rgb(33, 33, 33);
+				text-overflow: ellipsis;
+				font-size: 37px;
+				font-family: Inter, sans-serif;
+				font-weight: initial;
+				text-align: left;
+				width: 439px;
+				min-height: 135px;
+				position: absolute;
+				left: 333px;
+				top: 51px;
+				height: 135px;
+			}
+			
+			#EdgeDriver {
+				color: rgb(106, 106, 106);
+				text-overflow: ellipsis;
+				font-size: 19px;
+				font-family: Inter, sans-serif;
+				font-weight: initial;
+				text-align: center;
+				width: 368px;
+				min-height: 30px;
+				position: absolute;
+				left: 327px;
+				top: 156px;
+				height: 30px;
+			}
+			
+			#NaN_0003 {
+				width: 1345px;
+				height: 40px;
+				position: absolute;
+				left: 288px;
+				top: 333px;
+			}
+			
+			#NaN_0004 {
+				color: black;
+				text-overflow: ellipsis;
+				font-size: 25px;
+				font-family: Inter, sans-serif;
+				font-weight: initial;
+				text-align: left;
+				width: 153px;
+				min-height: 30px;
+				position: absolute;
+				left: 0px;
+				top: 0px;
+				height: 30px;
+			}
+			
+			#Hr {
+				width: 1345px;
+				height: 2px;
+				box-shadow: 0px 4px 4px  rgba(0, 0, 0, 0.25);
+				background-color: black;
+				border: solid 1px black;
+				position: absolute;
+				left: 0px;
+				top: 38px;
+			}
+			
+			#NaN_0005 {
+				width: 1920px;
+				height: 72px;
+				position: absolute;
+				left: 0px;
+				top: 216px;
+			}
+			
+			#NaN_0006 {
+				width: 1920px;
+				height: 72px;
+				background-color: white;
+				border: solid 1px rgb(135, 126, 126);
+				position: absolute;
+				left: 0px;
+				top: 0px;
+			}
+			
+			#NaN_0007 {
+				color: black;
+				text-overflow: ellipsis;
+				font-size: 25px;
+				font-family: Inter, sans-serif;
+				font-weight: initial;
+				text-align: center;
+				width: 174px;
+				min-height: 30px;
+				position: absolute;
+				left: 664px;
+				top: 21px;
+				height: 30px;
+			}
+			
+			#NaN_0008 {
+				color: black;
+				text-overflow: ellipsis;
+				font-size: 25px;
+				font-family: Inter, sans-serif;
+				font-weight: initial;
+				text-align: center;
+				width: 100px;
+				min-height: 30px;
+				position: absolute;
+				left: 907px;
+				top: 21px;
+				height: 30px;
+			}
+			
+			#NaN_0009 {
+				color: black;
+				text-overflow: ellipsis;
+				font-size: 25px;
+				font-family: Inter, sans-serif;
+				font-weight: initial;
+				text-align: center;
+				width: 233px;
+				min-height: 30px;
+				position: absolute;
+				left: 1080px;
+				top: 21px;
+				height: 30px;
+			}
+			
+			#Tiitle {
+				width: 1922px;
+				height: 225px;
+				position: absolute;
+				left: 0px;
+				top: 0px;
+			}
+			
+			#SmartHomeFinder {
+				color: black;
+				text-overflow: ellipsis;
+				font-size: 53px;
+				font-family: Inter, sans-serif;
+				font-weight: initial;
+				text-align: center;
+				width: 750px;
+				min-height: 110px;
+				position: absolute;
+				left: 588px;
+				top: 115px;
+				height: 110px;
+			}
+			
+			#NaN_0010 {
+				width: 1922px;
+				height: 71px;
+				background-color: rgb(47, 47, 47);
+				position: absolute;
+				left: 0px;
+				top: 0px;
+			}
     </style>
   </head>
   <body>
-    <div id="container">
-      <header>
-        <h1 id="Title">Smart Home Finder</h1>
-        <nav id="mu">
-          <hr />
-          <a href="">입문자 가이드</a>
-          <a href="">자동화</a>
-          <a href="">호환/비교</a>
-          <hr />
-        </nav>
-      </header>
-
-      <main class="tlqkf">
-        <section id="test">
-          호환 비교
-          <hr />
-
-          <a href="#" class="dropdown">
-            <button class="dropbtn">
-              <span class="dropbtn_icon">more_horiz</span>
-              IoT Platform
-            </button>
-            <div class="dropdown-content">
-              <a href="#">Apple Homekit</a>
-              <a href="#">Samsung SmartThings</a>
-              <a href="#">Google Home</a>
-            </div>
-          </a>
-
-          <a href="#" class="dropdown">
-            <button class="dropbtn">
-              <span class="dropbtn_icon">more_horiz</span>
-              View More
-            </button>
-            <div class="dropdown-content">
-              <a href="#">profile</a>
-              <a href="#">write a post</a>
-              <a href="#">settings</a>
-            </div>
-          </a>
-        </section>
-      </main>
-    </div>
+<div id="RootWrapperNaN">
+			<div id="IoTWirelessTechnologies">
+				<div id="Div">
+					
+				</div>
+				<span id="IoTWirelessTechnologies_0001">
+					IoT Wireless Technologies
+				</span>
+				<span id="IotBelWiFiZigbee">
+					Iot 무선 통신 기술중 대표적인 BEL,WiFi,Zigbee 방식에 대해 알아봅시다.
+				</span>
+				<img src="grida://assets-reservation/images/84:41"
+			alt="image of Img"
+			id="Img">
+					
+				</img>
+				<div id="Btn">
+					<div id="Btn_0001">
+						
+					</div>
+					<span id="NaN">
+						자세히보기
+					</span>
+				</div>
+			</div>
+			<div id="HomeBridge">
+				<div id="Div">
+					
+				</div>
+				<img src="grida://assets-reservation/images/84:37"
+			alt="image of HomeBridgeImg"
+			id="HomeBridgeImg">
+					
+				</img>
+				<span id="IoTWirelessTechnologies_0001">
+					Apple Homekit<br/>
+		Home Bridge
+				</span>
+				<span id="HomeBridgeHomekit">
+					Home bridge로 Homekit에 연동되지 않는 기기들을 연동해 보세요!
+				</span>
+				<div id="Btn_0002">
+					<div id="Btn_0001">
+						
+					</div>
+					<span id="NaN">
+						자세히보기
+					</span>
+				</div>
+			</div>
+			<div id="SmartThings">
+				<div id="Div">
+					
+				</div>
+				<img src="grida://assets-reservation/images/24:170"
+			alt="image of SmartThings"
+			id="SmartThings_0001">
+					
+				</img>
+				<span id="SmartThingsEdgeDriver">
+					SmartThings<br/>
+		Edge Driver
+				</span>
+				<span id="EdgeDriver">
+					Edge Driver로 더 많은 기기를 연동하세요.
+				</span>
+				<div id="Btn">
+					<div id="Btn_0001">
+						
+					</div>
+					<span id="NaN">
+						자세히보기
+					</span>
+				</div>
+			</div>
+			<div id="NaN_0003">
+				<span id="NaN_0004">
+					입문자 가이드
+				</span>
+				<div id="Hr">
+					
+				</div>
+			</div>
+			<div id="NaN_0005">
+				<div id="NaN_0006">
+					
+				</div>
+				<span id="NaN_0007">
+					입문자 가이드
+				</span>
+				<span id="NaN_0008">
+					자동화
+				</span>
+				<span id="NaN_0009">
+					호환/비교
+				</span>
+			</div>
+			<div id="Tiitle">
+				<span id="SmartHomeFinder">
+					Smart Home Finder
+				</span>
+				<div id="NaN_0010">
+					
+				</div>
+			</div>
+		</div>
   </body>
 </html>

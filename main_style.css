@@ -90,3 +90,13 @@ img {
 .dropdown:hover .dropdown-content {
   display: block;
 }
+
+#qudtls {
+  margin-left: -530px;
+  margin-bottom: auto;
+}
+
+#ro {
+  margin-top: -15px;
+  margin-bottom: 10px;
+}
