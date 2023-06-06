@@ -41,7 +41,7 @@ main {
 
 img {
   min-height: 100px;
-  padding-top: 200px;
+  /* padding-top: 200px; */
 }
 
 @import url("https://fonts.googleapis.com/icon?family=Material+Icons");
