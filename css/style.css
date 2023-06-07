@@ -1,210 +1,212 @@
 * {
-  margin: 0;
-  padding: 0;
+    margin: 0;
+    padding: 0;
 }
 
 #wall {
-  margin-left: 320px;
-  margin-right: 320px;
-  /* background-color: lawngreen; */
+    margin-left: 320px;
+    margin-right: 320px;
+    /* background-color: lawngreen; */
 }
 
 #wall_2 {
-  margin-left: 320px;
-  margin-right: 320px;
-  /* background-color: lawngreen; */
+    margin-left: 320px;
+    margin-right: 320px;
+    /* background-color: lawngreen; */
 }
 
 header {
-  width: calc(100% - 100px); /* Subtracting the side margins from the width */
-  margin: 0 auto; /* Centering the header horizontally */
-  height: 71px;
-  background-color: rgb(47, 47, 47);
+    width: calc(100% - 100px); /* Subtracting the side margins from the width */
+    margin: 0 auto; /* Centering the header horizontally */
+    height: 71px;
+    background-color: rgb(47, 47, 47);
 }
 
 a {
-  text-decoration: none !important;
-  color: inherit !important;
+    text-decoration: none !important;
+    color: inherit !important;
 }
 
 header {
-  width: 100%;
-  height: 71px;
-  background-color: rgb(47, 47, 47);
+    width: 100%;
+    height: 71px;
+    background-color: rgb(47, 47, 47);
 }
 
 #Title {
-  color: black;
-  font-size: 53px;
-  font-weight: initial;
-  text-align: center;
-  min-height: 110px;
-  padding-top: 115px;
+    color: black;
+    font-size: 53px;
+    font-weight: initial;
+    text-align: center;
+    min-height: 110px;
+    padding-top: 115px;
 }
 
 nav#mu {
-  text-align: center;
-  margin-top: 10px;
+    text-align: center;
+    margin-top: 10px;
 }
 
 nav#mu a {
-  margin: 0 10px;
-  font-size: 20px;
-  color: white;
+    margin: 0 10px;
+    font-size: 20px;
+    color: white;
 }
 
 main {
-  text-align: center;
-  margin-top: 10px;
+    text-align: center;
+    margin-top: 10px;
 }
 
 img {
-  min-height: 100px;
-  /* padding-top: 200px; */
+    min-height: 100px;
+    /* padding-top: 200px; */
 }
 
 @import url("https://fonts.googleapis.com/icon?family=Material+Icons");
 
 .dropdown {
-  position: relative;
-  display: inline-block;
+    position: relative;
+    display: inline-block;
 }
 
 .dropbtn_icon {
-  font-family: "Material Icons";
+    font-family: "Material Icons";
 }
 .dropbtn {
-  border: 1px solid rgb(78, 77, 77);
-  border-radius: 4px;
-  background-color: #f5f5f5;
-  font-weight: 400;
-  color: rgb(37, 37, 37);
-  padding: 12px;
-  width: 200px;
-  text-align: left;
-  cursor: pointer;
+    border: 1px solid rgb(78, 77, 77);
+    border-radius: 4px;
+    background-color: #f5f5f5;
+    font-weight: 400;
+    color: rgb(37, 37, 37);
+    padding: 12px;
+    width: 200px;
+    text-align: left;
+    cursor: pointer;
 
-  font-size: 12px;
+    font-size: 12px;
 }
 .dropdown-content {
-  display: none;
-  position: absolute;
-  z-index: 1; /*다른 요소들보다 앞에 배치*/
-  font-weight: 400;
-  background-color: #f9f9f9;
-  min-width: 200px;
+    display: none;
+    position: absolute;
+    z-index: 1;
+    font-weight: 400;
+    background-color: #f9f9f9;
+    min-width: 200px;
 }
 
 .dropdown-content a {
-  display: block;
-  text-decoration: none;
-  color: rgb(37, 37, 37);
-  font-size: 12px;
-  padding: 12px 20px;
+    display: block;
+    text-decoration: none;
+    color: rgb(37, 37, 37);
+    font-size: 12px;
+    padding: 12px 20px;
 }
 
 .dropdown-content a:hover {
-  background-color: #ececec;
+    background-color: #ececec;
 }
 
 .dropdown:hover .dropdown-content {
-  display: block;
+    display: block;
 }
 
 #qudtls {
-  margin-left: -750px;
-  margin-bottom: auto;
+    margin-left: -750px;
+    margin-bottom: auto;
 }
 
 #ro {
-  margin-top: -15px;
-  margin-bottom: 10px;
+    margin-top: -15px;
+    margin-bottom: 10px;
 }
 
 /* -- */
 #RootWrapperIoTWirelessTechnologies {
-  position: relative;
+    position: relative;
+    /* Web 하기 싫어요.. 
+    web 기초 공부좀 할걸.... */
 }
 
 #Div {
-  width: 1345px;
-  height: 260px;
-  background-color: rgb(232, 232, 232);
-  border-radius: 10px;
-  position: fixed;
-  left: calc(50% - 672.5px); /* 가로 가운데 정렬 */
-  top: calc(50% - 130px); /* 세로 가운데 정렬 */
+    width: 1345px;
+    height: 260px;
+    background-color: rgb(232, 232, 232);
+    border-radius: 10px;
+    position: fixed;
+    left: calc(50% - 672.5px); /* 가로 가운데 정렬 */
+    top: calc(50% - 130px); /* 세로 가운데 정렬 */
 }
 
 #IoTWirelessTechnologies {
-  color: rgb(33, 33, 33);
-  text-overflow: ellipsis;
-  font-size: 37px;
-  font-family: Inter, sans-serif;
-  font-weight: initial;
-  text-align: left;
-  width: 483px;
-  min-height: 135px;
-  position: absolute;
-  left: 50%;
-  top: 49px;
-  transform: translateX(-50%); /* 가로 방향으로 가운데 정렬 */
+    color: rgb(33, 33, 33);
+    text-overflow: ellipsis;
+    font-size: 37px;
+    font-family: Inter, sans-serif;
+    font-weight: initial;
+    text-align: left;
+    width: 483px;
+    min-height: 135px;
+    position: absolute;
+    left: 50%;
+    top: 49px;
+    transform: translateX(-50%); /* 가로 방향으로 가운데 정렬 */
 }
 
 #IotBelWiFiZigbee {
-  color: rgb(106, 106, 106);
-  text-overflow: ellipsis;
-  font-size: 19px;
-  font-family: Inter, sans-serif;
-  font-weight: initial;
-  text-align: center;
-  width: 607px;
-  min-height: 30px;
-  position: absolute;
-  left: 50%;
-  top: 154px;
-  transform: translateX(-50%); /* 가로 방향으로 가운데 정렬 */
+    color: rgb(106, 106, 106);
+    text-overflow: ellipsis;
+    font-size: 19px;
+    font-family: Inter, sans-serif;
+    font-weight: initial;
+    text-align: center;
+    width: 607px;
+    min-height: 30px;
+    position: absolute;
+    left: 50%;
+    top: 154px;
+    transform: translateX(-50%); /* 가로 방향으로 가운데 정렬 */
 }
 
 #Img {
-  width: 233px;
-  height: 201px;
-  object-fit: cover;
-  position: absolute;
-  left: 32px;
-  top: 29px;
+    width: 233px;
+    height: 201px;
+    object-fit: cover;
+    position: absolute;
+    left: 32px;
+    top: 29px;
 }
 
 #Btn {
-  width: 122px;
-  height: 33px;
-  position: absolute;
-  left: 50%;
-  top: 205px;
-  transform: translateX(-50%); /* 가로 방향으로 가운데 정렬 */
+    width: 122px;
+    height: 33px;
+    position: absolute;
+    left: 50%;
+    top: 205px;
+    transform: translateX(-50%); /* 가로 방향으로 가운데 정렬 */
 }
 
 #Btn_0001 {
-  width: 119px;
-  height: 33px;
-  background-color: rgb(174, 174, 174);
-  border-radius: 13px;
-  position: absolute;
-  left: 1px;
-  top: 0px;
+    width: 119px;
+    height: 33px;
+    background-color: rgb(174, 174, 174);
+    border-radius: 13px;
+    position: absolute;
+    left: 1px;
+    top: 0px;
 }
 
 #NaN {
-  color: black;
-  text-overflow: ellipsis;
-  font-size: 15px;
-  font-family: Inter, sans-serif;
-  font-weight: initial;
-  text-align: center;
-  width: 122px;
-  min-height: 14px;
-  position: absolute;
-  left: 0px;
-  top: 10px;
-  height: 14px;
+    color: black;
+    text-overflow: ellipsis;
+    font-size: 15px;
+    font-family: Inter, sans-serif;
+    font-weight: initial;
+    text-align: center;
+    width: 122px;
+    min-height: 14px;
+    position: absolute;
+    left: 0px;
+    top: 10px;
+    height: 14px;
 }
