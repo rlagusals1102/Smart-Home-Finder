@@ -120,3 +120,91 @@ img {
   margin-top: -15px;
   margin-bottom: 10px;
 }
+
+/* -- */
+#RootWrapperIoTWirelessTechnologies {
+  position: relative;
+}
+
+#Div {
+  width: 1345px;
+  height: 260px;
+  background-color: rgb(232, 232, 232);
+  border-radius: 10px;
+  position: fixed;
+  left: calc(50% - 672.5px); /* 가로 가운데 정렬 */
+  top: calc(50% - 130px); /* 세로 가운데 정렬 */
+}
+
+#IoTWirelessTechnologies {
+  color: rgb(33, 33, 33);
+  text-overflow: ellipsis;
+  font-size: 37px;
+  font-family: Inter, sans-serif;
+  font-weight: initial;
+  text-align: left;
+  width: 483px;
+  min-height: 135px;
+  position: absolute;
+  left: 50%;
+  top: 49px;
+  transform: translateX(-50%); /* 가로 방향으로 가운데 정렬 */
+}
+
+#IotBelWiFiZigbee {
+  color: rgb(106, 106, 106);
+  text-overflow: ellipsis;
+  font-size: 19px;
+  font-family: Inter, sans-serif;
+  font-weight: initial;
+  text-align: center;
+  width: 607px;
+  min-height: 30px;
+  position: absolute;
+  left: 50%;
+  top: 154px;
+  transform: translateX(-50%); /* 가로 방향으로 가운데 정렬 */
+}
+
+#Img {
+  width: 233px;
+  height: 201px;
+  object-fit: cover;
+  position: absolute;
+  left: 32px;
+  top: 29px;
+}
+
+#Btn {
+  width: 122px;
+  height: 33px;
+  position: absolute;
+  left: 50%;
+  top: 205px;
+  transform: translateX(-50%); /* 가로 방향으로 가운데 정렬 */
+}
+
+#Btn_0001 {
+  width: 119px;
+  height: 33px;
+  background-color: rgb(174, 174, 174);
+  border-radius: 13px;
+  position: absolute;
+  left: 1px;
+  top: 0px;
+}
+
+#NaN {
+  color: black;
+  text-overflow: ellipsis;
+  font-size: 15px;
+  font-family: Inter, sans-serif;
+  font-weight: initial;
+  text-align: center;
+  width: 122px;
+  min-height: 14px;
+  position: absolute;
+  left: 0px;
+  top: 10px;
+  height: 14px;
+}
